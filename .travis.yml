@@ -12,4 +12,4 @@ services:
 script:
 - docker login -u steelrogue -p ODYIpb9jbGk8K0NJyTaH
 - mvn clean package docker:build
-- docker push tgielis/gs-scheduling-tasks:latest
+- docker push steelrogue/gs-scheduling-tasks:latest
