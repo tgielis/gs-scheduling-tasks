@@ -10,6 +10,6 @@ sudo: required
 services:
 - docker
 script:
-- docker login -u steelrogue -p ODYIpb9jbGk8K0NJyTaH
+- docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
 - mvn clean package docker:build
 - docker push steelrogue/gs-scheduling-tasks:latest
