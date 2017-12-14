@@ -15,7 +15,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <docker.image.name>tgielis/gs-scheduling-tasks</docker.image.name>
+        <docker.image.name>steelrogue/gs-scheduling-tasks</docker.image.name>
         <docker.image.tag>latest</docker.image.tag>
     </properties>
 
